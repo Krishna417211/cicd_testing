@@ -64,7 +64,7 @@ jobs:
     steps:
       - name: Trigger Render Deploy
         run: |
-          curl -X POST "${{ https://api.render.com/deploy/srv-d8ltskreo5us738c3p50?key=lknnSIWgStM }}" \
+          curl -X POST "https://api.render.com/deploy/srv-d8ltskreo5us738c3p50?key=lknnSIWgStM" \
             --fail \
             --silent \
             --show-error
