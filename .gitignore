@@ -1,0 +1,10 @@
+__pycache__/          ← Python's compiled bytecode files (auto-generated)
+*.py[cod]             ← .pyc .pyo .pyd compiled files
+*.egg-info/           ← Package metadata (not needed)
+.env                  ← Your secrets/passwords (NEVER push this!)
+.venv/ venv/          ← Virtual environment folder (huge, not needed)
+dist/ build/          ← Build artifacts
+.pytest_cache/        ← Pytest temp files
+.ruff_cache/          ← Linter temp files
+coverage.xml          ← Test coverage reports
+*.log                 ← Log files
